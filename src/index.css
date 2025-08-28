@@ -36,6 +36,32 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
 
+    /* Portfolio Dashboard Design System */
+    --financial-primary: 222.2 47.4% 11.2%;
+    --financial-primary-foreground: 210 40% 98%;
+    
+    --success: 142.1 76.2% 36.3%;
+    --success-foreground: 355.7 100% 97.3%;
+    
+    --warning: 47.9 95.8% 53.1%;
+    --warning-foreground: 26 83.3% 14.1%;
+    
+    --info: 221.2 83.2% 53.3%;
+    --info-foreground: 210 40% 98%;
+    
+    /* Financial gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(222.2 47.4% 11.2%), hsl(222.2 47.4% 18%));
+    --gradient-success: linear-gradient(135deg, hsl(142.1 76.2% 36.3%), hsl(142.1 76.2% 46.3%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 99%));
+    
+    /* Shadows */
+    --shadow-financial: 0 10px 25px -5px hsl(222.2 47.4% 11.2% / 0.1), 0 4px 6px -2px hsl(222.2 47.4% 11.2% / 0.05);
+    --shadow-card: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.06);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
